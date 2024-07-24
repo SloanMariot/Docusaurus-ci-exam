@@ -1,0 +1,37 @@
+name: Deploy Docusaurus to GitHub Pages
+
+on:
+  push:
+    branches:
+      - setup-docusaurus
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Configure Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14.x'
+
+      - name: Install project dependencies
+        run: npm ci
+
+      - name: Generate static site
+        run: npm run build
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build
+          force_orphan: true
