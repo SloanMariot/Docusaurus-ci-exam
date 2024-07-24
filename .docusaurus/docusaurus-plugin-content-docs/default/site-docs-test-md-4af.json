@@ -1,0 +1,24 @@
+{
+  "id": "test",
+  "title": "test",
+  "description": "- test avec linters",
+  "source": "@site/docs/test.md",
+  "sourceDirName": ".",
+  "slug": "/test",
+  "permalink": "/docs/test",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/test.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "init",
+    "permalink": "/docs/init"
+  },
+  "next": {
+    "title": "workflow",
+    "permalink": "/docs/workflow"
+  }
+}

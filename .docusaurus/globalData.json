@@ -11,8 +11,23 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "config_CI",
+              "path": "/docs/config_CI",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "init",
+              "path": "/docs/init",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "test",
+              "path": "/docs/test",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -53,6 +68,11 @@
             {
               "id": "tutorial-extras/translate-your-site",
               "path": "/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "workflow",
+              "path": "/docs/workflow",
               "sidebar": "tutorialSidebar"
             },
             {

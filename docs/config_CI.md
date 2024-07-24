@@ -1,0 +1,2 @@
+- création d'un dossier workflow dans .github
+- création du fichier deploy.yml avec les instructions

@@ -1,0 +1,24 @@
+{
+  "id": "config_CI",
+  "title": "config_CI",
+  "description": "- création d'un dossier workflow dans .github",
+  "source": "@site/docs/config_CI.md",
+  "sourceDirName": ".",
+  "slug": "/config_CI",
+  "permalink": "/docs/config_CI",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/config_CI.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "init",
+    "permalink": "/docs/init"
+  }
+}

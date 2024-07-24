@@ -1,0 +1,20 @@
+{
+  "id": "workflow",
+  "title": "workflow",
+  "description": "-ccréation d'une branch commit et merge",
+  "source": "@site/docs/workflow.md",
+  "sourceDirName": ".",
+  "slug": "/workflow",
+  "permalink": "/docs/workflow",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/workflow.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "test",
+    "permalink": "/docs/test"
+  }
+}
